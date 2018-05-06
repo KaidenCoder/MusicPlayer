@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* This project is done by Khaidem Sandip Singha under the Udacity Android Foundations Nanodegree program.
+    *
+    * I confirm that this submission is my own work. I have not used code from any other Udacity student's or graduate's submission of the same project.
+    * I understand that Udacity will check my submission for plagiarism, and that failure to adhere to the Udacity Honor Code may result in the cancellation of my
+    * enrollment.
+    *-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE0B2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.musicplayer.MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/musicText"
+            style ="@style/TextStyle"
+            android:text="@string/musicText"
+            android:textSize="@dimen/text_size_two"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            style ="@style/TextStyle"
+            android:text="@string/musicDescription"/>
+
+        <TextView
+            android:id="@+id/playActivity"
+            android:text="@string/playnow"
+            style ="@style/TextStyle"
+            android:background="#E65100"
+            />
+
+        <TextView
+            android:id="@+id/artists"
+            android:text="@string/artists"
+            style ="@style/TextStyle"
+            android:background="#F57C00"
+            />
+
+        <TextView
+            android:id="@+id/albums"
+            android:text="@string/albums"
+            style ="@style/TextStyle"
+            android:background="#FB8C00"
+            />
+
+        <TextView
+            android:id="@+id/songs"
+            android:text="@string/songs"
+            style ="@style/TextStyle"
+            android:background="#FF9800"
+            />
+
+        <TextView
+            android:id="@+id/genres"
+            android:text="@string/genres"
+            style ="@style/TextStyle"
+            android:background="#FFA726"
+            />
+
+        <TextView
+            android:id="@+id/playlists"
+            android:text="@string/playLists"
+            style ="@style/TextStyle"
+            android:background="#FFB74D"
+            />
+
+        <TextView
+            android:id="@+id/payment"
+            android:text="@string/payment"
+            style ="@style/TextStyle"
+            android:background="#FFCC80"/>
+
+    </LinearLayout>
+</ScrollView>

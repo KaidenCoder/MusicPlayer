@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="musicText">Music Player</string>
+    <string name="musicDescription">This screen allows users to navigate through the entire app.</string>
+    <string name="playnow">Play Music</string>
+    <string name="playText">Playing Now</string>
+    <string name="playDetails">This screen allows user to play music, stop music, pause music and also have the global functionality of turning volume up and down</string>
+    <string name="musicImage">Music Image</string>
+    <string name="stop">STOP</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="details">DETAILS</string>
+    <string name="artists">ARTISTS</string>
+    <string name="albums">ALBUMS</string>
+    <string name="songs">SONGS</string>
+    <string name="genres">GENRES</string>
+    <string name="playLists">PLAYLISTS</string>
+    <string name="next">NEXT</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="back">Main</string>
+    <string name="payment">PAYMENT</string>
+    <string name="text">Subscribe here for unlimited music at $5/month</string>
+
+    <!--android manifest files names-->
+    <string name="playMusic">PLAY MUSIC</string>
+    <string name="artistsManifest">ARTISTS</string>
+    <string name="albumsManifest">ALBUMS</string>
+    <string name="songsManifest">SONGS</string>
+    <string name="playListsManifest">PLAYLISTS</string>
+    <string name="genresManifest">GENRES</string>
+    <string name="paymentManifest">PAYMENT</string>
+
+    <string name="artistsDetails">This screen shows the name of singers of every songs</string>
+    <string name="albumsDetails">This screen shows the name of songs along with the singer name.</string>
+    <string name="songsDetails">This screen shows the list of all recorded voices and songs.</string>
+    <string name="genresDetails">This screen shows the type of song. Example: pop song, country song.</string>
+    <string name="playListsDetails">This screen shows the playlists created by you.</string>
+    <string name="paymentDetails">For the payment process to work, we download the paypal sdk which include ApyPal_MPL.jar. We make an external library and import PayPal_MPL.jar. We specify the paypal environment(example ENV_SANDBOX).\nWe take and initialise the AppID. We calculate the price of the item(s) or service to be purchased and input that value into your MPL call. We set the payment type(Example: PAYMENT_TYPE_SERVICE). We create the MPL payment call. When the payment flow is complete, MPL returns control to your app.
+    </string>
+</resources>
